@@ -1,10 +1,10 @@
-use_frameworks!
+#use_frameworks!
 
 platform :ios, '8.0'
 
 target 'OMTFoundation_Example' do
   pod 'OMTFoundation', :path => '../'
-
+  pod 'AFNetworking'
   target 'OMTFoundation_Tests' do
     inherit! :search_paths
 
